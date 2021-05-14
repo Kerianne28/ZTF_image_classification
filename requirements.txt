@@ -1,0 +1,10 @@
+ztfquery
+pandas
+numpy
+astropy
+tqdm
+os
+matplotlib.pyplot
+warnings
+notebook
+sklearn
