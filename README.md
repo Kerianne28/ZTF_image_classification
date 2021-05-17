@@ -34,7 +34,7 @@ https://www.ztf.caltech.edu
 ### <u>3. Jupyter notebook</u>
 - Jupyter notebook was installed in step 2.
 - To run the notebooks:
-   - Change directories to `/ZTF_image_classification`, and run jupyter notebook:
+   - Change directories to `ZTF_image_classification/`, and run jupyter notebook:
 
          $ cd [/path/to/ZTF_image_classification]
          $ jupyter notebook
@@ -63,20 +63,19 @@ https://www.ztf.caltech.edu
    - Classifying and generating ZTF cutouts requires knowing object positions and truth labels ('star' or 'galaxy'). Because ZTF catalogs do *not* include type labels, we must identify object types and positions an alternate way.
    - This notebook demonstrates how to get type labels and object positions from another survey, and make relevant data cuts, so that we have a list of objects (with truth labels) in which we can generate ZTF cutouts for. 
    - This notebook also contains information on many background astronomy topics including RA/DEC, magnitude/flux, and blending.
+   - Outputs: `stars.csv` and `gals.csv`, with columns RA, DEC, and type.
 2. `generating_ZTF_cutouts.ipynb`:
    - **Optional**
    - This notebook demonstrates how to generate ZTF cutouts for each object from the previous notebook.
+   - Outputs: Cutouts in the form of .fits images to `cutouts_test/`
 3. `data_normalization.ipynb`:
    - This notebook demonstrates applying various data normalization techniques (an important step for use in machine learning algorithms), and transforms the data into the proper format for our classifier.
+   - Outputs: Multiple .csv files containing flattened image data and truth labels. 
 4. `star_gal_classification.ipynb`:
    - Must have run notebook 3 first.
    - This notebook runs the MuyGPyS classifier on 5 different types of data (normalized and raw), and compares the classification accuracies. 
 
 
-*** 
-
-
-***NOTE:*** Check back soon as we're working on asteroid classification notbooks as well!
 
 
 
