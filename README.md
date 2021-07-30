@@ -14,22 +14,27 @@ https://www.ztf.caltech.edu
 # Install Dependencies:
 
 ### <u>1. MuyGPyS</u>
-- MuyGPyS is a python package that uses the MuyGPS method for image classification.
+- MuyGPyS is a python package that uses the MuyGPS method for image classification. 
+- See https://github.com/LLNL/MuyGPyS for more information.
 - **Clone MuyGPyS**:
-- ***Note***: We are just waiting on this package to get through IM. Once it is through, the link will be put here and directions on how to install will be provided.
 
-         $ git clone [link]
+         $ git clone https://github.com/LLNL/MuyGPyS.git
 
 - **Install MuyGPyS**:
 
-         $ [Insert steps to installing MuyGPyS]
+         $ cd [/path/to/MuyGPyS]
+         $ pip install -e .
+         $ cd [/path/to/MuyGPyS]/docs
+         $ pip install -r requirements.txt
 
-   - Use the README ([link]) for complete installation instructions and package information.
+   - Use the MuyGPyS README (https://github.com/LLNL/MuyGPyS/blob/main/README.md) for complete installation instructions and package information.
 
 ### <u>2. Python dependencies</u>
 - Install all needed python packages using pip:
 
+        $ cd [path/to/this/repo]
         $ pip install -r requirements.txt
+
 
 ### <u>3. Jupyter notebook</u>
 - Jupyter notebook was installed in step 2.
