@@ -1,3 +1,5 @@
+LLNL-CODE-XXXXXX
+
 # Zwicky Transient Facility (ZTF) Image Classification Using MuyGPS
 
 This repo demonstrates how to use the LLNL developed Gaussian process hyperparameter estimation method, MuyGPS, for image classification using ZTF data.
@@ -32,7 +34,7 @@ https://www.ztf.caltech.edu
 ### <u>2. Python dependencies</u>
 - Install all needed python packages using pip:
 
-        $ cd [path/to/this/repo]
+        $ cd [/path/to/ZTF_image_classification]
         $ pip install -r requirements.txt
 
 
