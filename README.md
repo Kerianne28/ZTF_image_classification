@@ -2,7 +2,14 @@ LLNL-CODE-825407
 
 # Zwicky Transient Facility (ZTF) Image Classification Using MuyGPS
 
-This repo demonstrates how to use the LLNL developed Gaussian process hyperparameter estimation method, MuyGPS, for image classification using ZTF data.
+### **Background:**
+
+ZTF is a wide-field astronomical imaging survey seeking to answer many of the universe's mysteries, by frequently imaging billions of objects in our night sky. Understanding the nature of dark matter and dark energy relies on accurately mapping the universe around us, making distinguishing stars from galaxies a crucial task for astronomers. Mislabeling stars and galaxies poses a considerable problem for cosmological models and calculations, as stars are much closer than galaxies, and current methods for separating these populations consumes valuable time and resources, driving astronomers to search for new methods of deciphering objects in a quick and effective manner. 
+
+***
+
+# Package Overview:
+Scientists at LLNL have developed a computationally efficient Gaussian process hyperparameter estimation method, **MuyGPS**, that can be applied to various image classification tasks. This repo demonstrates the use of **MuyGPyS**, a python package that implements the **MuyGPs** method, and contains various notebooks spanning the steps of an image classification pipeline, from curating a dataset of real stars and galaxies, to obtaining a classification accuracy.
 
 **For more information about ZTF:**
 https://www.ztf.caltech.edu
