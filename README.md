@@ -1,4 +1,4 @@
-LLNL-CODE-XXXXXX
+LLNL-CODE-825407
 
 # Zwicky Transient Facility (ZTF) Image Classification Using MuyGPS
 
@@ -81,6 +81,11 @@ https://www.ztf.caltech.edu
 4. `star_gal_classification.ipynb`:
    - Must have run notebook 3 first.
    - This notebook runs the MuyGPyS classifier on 5 different types of data (normalized and raw), and compares the classification accuracies. 
+
+# Future Plans:
+- Asteroid detection classification
+- Satellite detection classification
+- Asteroid vs. Satellite classification
 
 
 
