@@ -18,18 +18,10 @@ https://www.ztf.caltech.edu
 ### <u>1. MuyGPyS</u>
 - MuyGPyS is a python package that uses the MuyGPS method for image classification. 
 - See https://github.com/LLNL/MuyGPyS for more information.
-- **Clone MuyGPyS**:
 
-         $ git clone https://github.com/LLNL/MuyGPyS.git
+         $ pip install https://github.com/LLNL/MuyGPyS.git
 
-- **Install MuyGPyS**:
-
-         $ cd [/path/to/MuyGPyS]
-         $ pip install -e .
-         $ cd [/path/to/MuyGPyS]/docs
-         $ pip install -r requirements.txt
-
-   - Use the MuyGPyS README (https://github.com/LLNL/MuyGPyS/blob/main/README.md) for complete installation instructions and package information.
+   - Use the MuyGPyS README (https://github.com/LLNL/MuyGPyS/blob/main/README.md) for alternate installation instructions and package information.
 
 ### <u>2. Python dependencies</u>
 - Install all needed python packages using pip:
